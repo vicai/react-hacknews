@@ -1,0 +1,65 @@
+.App {
+  font-family: Verdana, Geneva, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.hnname {
+  margin-right: 5px;
+}
+
+.hn-table {
+  text-align: center;
+  width: 85%;
+  background-color: rgb(246, 246, 239);
+}
+
+.news-container {
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-content {
+  text-align: left;
+  font-size: 13px;
+}
+
+.news-domain {
+  color: #828282;
+  font-size: 8pt;
+}
+
+.news-idx {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.news-info {
+  padding-left: 30px;
+  font-size: 8px;
+  float: left;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+}
+
+.news-title {
+  align-items: center;
+  background-color: #ff6600;
+  display: flex;
+}
+
+.yc-logo {
+  width: 18px;
+  height: 18px;
+  border: 1px white solid;
+  margin: 2px 4px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
